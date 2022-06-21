@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0-windows": [
+      "MahApps.Metro >= 2.4.4",
+      "MahApps.Metro.IconPacks >= 4.8.0",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.0-preview.1.21102.2",
+      "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.1.21102.12",
+      "NAudio >= 2.0.0",
+      "taglib-sharp-netstandard2.0 >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\repos\\Labs\\lab14\\Audibly\\Audibly.csproj",
+      "projectName": "Audibly",
+      "projectPath": "D:\\repos\\Labs\\lab14\\Audibly\\Audibly.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\repos\\Labs\\lab14\\Audibly\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows": {
+        "dependencies": {
+          "MahApps.Metro": {
+            "target": "Package",
+            "version": "[2.4.4, )"
+          },
+          "MahApps.Metro.IconPacks": {
+            "target": "Package",
+            "version": "[4.8.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[6.0.0-preview.1.21102.2, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[6.0.0-preview.1.21102.12, )"
+          },
+          "NAudio": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "taglib-sharp-netstandard2.0": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "Platform version is not present for one or more target frameworks, even though they have specified a platform: net5.0-windows"
+    }
+  ]
+}
